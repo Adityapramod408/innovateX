@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(237, 193, 150);
+
+}
+
+label{
+   
+    font-size: 30px;
+    color: rgb(233, 230, 230);
+    
+    font-style: ar;
+    margin-bottom: 30px;
+    
+}
+h1{
+    font-size: 50px;
+    color: rgb(237, 237, 232);
+
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/016/408/769/non_2x/cute-super-hero-flying-cartoon-icon-illustration-people-profession-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.content {
+    position: relative; /* Position content above the background */
+    z-index: 1; /* Ensure content is above the background */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+}
+
+form{
+    margin-top: 100px;
+}
