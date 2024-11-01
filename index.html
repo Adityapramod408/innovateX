@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Creation Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Website Creation Form</h1>
+<form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="starsign">Star Sign:</label>
+    <select id="starsign" name="starsign" required>
+        <option value="">Select your star sign</option>
+        <option value="Aries">Aries</option>
+        <option value="Taurus">Taurus</option>
+        <option value="Gemini">Gemini</option>
+        <option value="Cancer">Cancer</option>
+        <option value="Leo">Leo</option>
+        <option value="Virgo">Virgo</option>
+        <option value="Libra">Libra</option>
+        <option value="Scorpio">Scorpio</option>
+        <option value="Sagittarius">Sagittarius</option>
+        <option value="Capricorn">Capricorn</option>
+        <option value="Aquarius">Aquarius</option>
+        <option value="Pisces">Pisces</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
+
