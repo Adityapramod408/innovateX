@@ -74,6 +74,27 @@ const superpowers = {
     ]
 };
 
+// // Function to handle form submission
+// document.querySelector('form').addEventListener('submit', function(event) {
+//     event.preventDefault(); // Prevent default form submission
+
+//     const name = document.getElementById('name').value;
+//     const starSign = document.getElementById('starsign').value;
+
+//     // Check if star sign is selected
+//     if (starSign) {
+//         const powers = superpowers[starSign];
+//         const powerList = powers.map(power => `<li>${power}</li>`).join('');
+//         const message = `<h2>${name}, your superpowers are:</h2><ul>${powerList}</ul>`;
+        
+//         // Display the superpowers (you can change this to your preferred way of displaying)
+//         document.body.insertAdjacentHTML('beforeend', message);
+//     } else {
+//         alert('Please select a star sign!');
+//     }
+// });
+
+
 // Function to handle form submission
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault(); // Prevent default form submission
@@ -84,10 +105,14 @@ document.querySelector('form').addEventListener('submit', function(event) {
     // Check if star sign is selected
     if (starSign) {
         const powers = superpowers[starSign];
-        const powerList = powers.map(power => `<li>${power}</li>`).join('');
-        const message = `<h2>${name}, your superpowers are:</h2><ul>${powerList}</ul>`;
+
+        // Get a random power from the selected star sign
+        const randomIndex = Math.floor(Math.random() * powers.length);
+        const randomPower = powers[randomIndex];
+
+        const message = `<h2>${name}, your superpower is:</h2><p>${randomPower}</p>`;
         
-        // Display the superpowers (you can change this to your preferred way of displaying)
+        // Display the superpower
         document.body.insertAdjacentHTML('beforeend', message);
     } else {
         alert('Please select a star sign!');
