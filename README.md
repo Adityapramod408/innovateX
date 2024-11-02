@@ -49,13 +49,10 @@ screenshot of our output screen
 
 
 https://github.com/user-attachments/assets/d80952f0-0d00-4cf4-91dc-5586642cae43
-
-
 *its shows a useless superpower when you input your name and star sign*
 
-
-## Team Contributions
-- [Aditya p]: [javascript]
-- [liya fathima]: [html]
-- [Neha v]: [css]
+Team Contributions
+- [Aditya p]: javascript
+- [liya fathima]: html
+- [Neha v]:css
 
