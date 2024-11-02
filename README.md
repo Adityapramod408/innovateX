@@ -46,7 +46,11 @@ screenshot of our output screen
 
 ### Project Demo
 # Video
-![](demo-video.mp4)
+
+
+https://github.com/user-attachments/assets/d80952f0-0d00-4cf4-91dc-5586642cae43
+
+
 *its shows a useless superpower when you input your name and star sign*
 
 
@@ -54,12 +58,4 @@ screenshot of our output screen
 - [Aditya p]: [javascript]
 - [liya fathima]: [html]
 - [Neha v]: [css]
-
----
-Made with ❤️ at TinkerHub Useless Projects 
-
-![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
-![Static Badge](https://img.shields.io/badge/UselessProject--24-24?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
-
-
 
